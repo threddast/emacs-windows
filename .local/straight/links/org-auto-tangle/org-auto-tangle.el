@@ -1,0 +1,1 @@
+c:/Users/threddast/.emacs.d/.local/straight/repos/org-auto-tangle/org-auto-tangle.el

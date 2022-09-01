@@ -1,0 +1,1 @@
+c:/Users/threddast/.emacs.d/.local/straight/repos/ansible-doc/ansible-doc.el

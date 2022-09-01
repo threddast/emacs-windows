@@ -1,0 +1,586 @@
+* [0.201567] Starting!
+* [0.201606] doom-cli-run: (C:\Users\threddast\Programs\emacs-28.1\bin\emacs.exe -scriptload .\doom -- purge)
+* [0.201684] doom-cli-context-execute: found (doom)
+* [0.202067] Autoloading c:/Users/threddast/.emacs.d/lisp/cli/packages.el
+* [0.255014] doom-cli-context-execute: found (doom purge)
+* [0.255317] doom-cli-context-execute: doom purge
+* [0.255608] doom-cli-execute: (:before) ((input) (context . #s(doom-cli-context (25360 54423 125579 0) 5636 -1 nil nil nil doom nil nil (doom purge) nil (purge) ((--no-regraft) (-g) (--no-eln) (-e) (--no-repos) (-r) (--no-elpa) (-p) (--no-builds) (-b) (--eval) (-E) (--strict-load) (--load) (-L) (--color) (--profile) (--pager) (--emacsdir) (--doomdir) (--debug) (-D) (--force) (-!)) ((t) ((doom purge)) ((doom) purge))  *doom-cli stdin*  *doom-cli stdout*  *doom-cli stderr* nil)) (_) (evals) (loads) (color?) (profile) (pager) (emacsdir) (doomdir) (debug?) (force?))
+* [0.255660] doom-cli-execute: (:before doom build) nil
+* [0.255685] Initializing straight
+* [0.352506] Initializing recipes
+* [0.355568] Installing core packages
+* [0.356062] doom-cli-execute: (doom purge) ((noregraft-p) (noeln-p) (norepos-p) (noelpa-p) (nobuilds-p))
+* [0.360680] Initializing package.el
+* [0.465077] Initializing straight.el
+> Purging orphaned packages (for the emperor)...
+  - No builds to purge
+  - No ELPA packages to purge
+  - No repos to purge
+  > Regrafting 183 repos...
+    - repos/Emacs-langtool is already compact
+    - repos/Emacs-wgrep is already compact
+    - repos/ace-window is already compact
+    - repos/adaptive-wrap is already compact
+    - repos/alert is already compact
+    - repos/all-the-icons.el is already compact
+    - repos/annalist.el is already compact
+    - repos/anzu is already compact
+    - repos/auctex is already compact
+    - repos/auto-minor-mode is already compact
+    - repos/auto-yasnippet is already compact
+    - repos/avy is already compact
+    - repos/better-jumper is already compact
+    - repos/browse-at-remote is already compact
+    - repos/cdlatex is already compact
+    - repos/centered-window-mode is already compact
+    - repos/company-auctex is already compact
+    - repos/company-box is already compact
+    - repos/company-math is already compact
+    - repos/company-mode is already compact
+    - repos/company-reftex is already compact
+    - repos/compat is already compact
+    - repos/consult is already compact
+    - repos/consult-dir is already compact
+    - repos/consult-flycheck is already compact
+    - repos/dash.el is already compact
+    - repos/dired-git-info is already compact
+    - repos/dired-rsync is already compact
+    - repos/diredfl is already compact
+    - repos/doom-modeline is already compact
+    - repos/drag-stuff.el is already compact
+    - repos/dtrt-indent is already compact
+    - repos/dumb-jump is already compact
+    - repos/edit-indirect is already compact
+    - repos/el-get is already compact
+    - repos/elisp-def is already compact
+    - repos/elisp-demos is already compact
+    - repos/elisp-refs is already compact
+    - repos/emacs-async is already compact
+    - repos/emacs-buttercup is already compact
+    - repos/emacs-company-dict is already compact
+    - repos/emacs-format-all-the-code is already compact
+    - repos/emacs-hide-mode-line is already compact
+    - repos/emacs-htmlize is already compact
+    - repos/emacs-jupyter is already compact
+    - repos/emacs-libvterm is already compact
+    - repos/emacs-request is already compact
+    - repos/emacs-solaire-mode is already compact
+    - repos/emacs-web-server is already compact
+    - repos/emacs-websocket is already compact
+    - repos/emacs-which-key is already compact
+    - repos/emacs-zmq is already compact
+    - repos/emacsmirror-mirror is already compact
+    - repos/emacsql is already compact
+    - repos/embark is already compact
+    - repos/embrace.el is already compact
+    - repos/epl is already compact
+    - repos/eros is already compact
+    - repos/evil is already compact
+    - repos/evil-anzu is already compact
+    - repos/evil-args is already compact
+    - repos/evil-collection is already compact
+    - repos/evil-easymotion is already compact
+    - repos/evil-embrace.el is already compact
+    - repos/evil-escape is already compact
+    - repos/evil-exchange is already compact
+    - repos/evil-goggles is already compact
+    - repos/evil-indent-plus is already compact
+    - repos/evil-lion is already compact
+    - repos/evil-markdown is already compact
+    - repos/evil-nerd-commenter is already compact
+    - repos/evil-numbers is already compact
+    - repos/evil-org-mode is already compact
+    - repos/evil-quick-diff is already compact
+    - repos/evil-snipe is already compact
+    - repos/evil-surround is already compact
+    - repos/evil-tex is already compact
+    - repos/evil-textobj-anyblock is already compact
+    - repos/evil-traces is already compact
+    - repos/evil-vimish-fold is already compact
+    - repos/evil-visualstar is already compact
+    - repos/exato is already compact
+    - repos/expand-region.el is already compact
+    - repos/explain-pause-mode is already compact
+    - repos/f.el is already compact
+    - repos/fd-dired is already compact
+    - repos/flycheck is already compact
+    - repos/flycheck-cask is already compact
+    - repos/flycheck-package is already compact
+    - repos/flycheck-popup-tip is already compact
+    - repos/flycheck-posframe is already compact
+    - repos/flyspell-correct is already compact
+    - repos/flyspell-lazy is already compact
+    - repos/frame-local is already compact
+    - repos/fringe-helper.el is already compact
+    - repos/gcmh is already compact
+    - repos/general.el is already compact
+    - repos/git-gutter is already compact
+    - repos/git-gutter-fringe is already compact
+    - repos/git-modes is already compact
+    - repos/git-timemachine is already compact
+    - repos/gntp.el is already compact
+    - repos/gnu-elpa-mirror is already compact
+    - repos/goto-chg is already compact
+    - repos/helpful is already compact
+    - repos/highlight-numbers is already compact
+    - repos/highlight-quoted is already compact
+    - repos/hl-todo is already compact
+    - repos/ht.el is already compact
+    - repos/hydra is already compact
+    - repos/iedit is already compact
+    - repos/json-mode is already compact
+    - repos/json-snatcher is already compact
+    - repos/kurecolor is already compact
+    - repos/latex-preview-pane is already compact
+    - repos/link-hint.el is already compact
+    - repos/lispy is already compact
+    - repos/lispyville is already compact
+    - repos/log4e is already compact
+    - repos/macrostep is already compact
+    - repos/magit is already compact
+    - repos/map is already compact
+    - repos/marginalia is already compact
+    - repos/markdown-mode is already compact
+    - repos/markdown-toc is already compact
+    - repos/math-symbol-lists is already compact
+    - repos/melpa is already compact
+    - repos/ob-async is already compact
+    - repos/orderless is already compact
+    - repos/org is already compact
+    - repos/org-auto-tangle is already compact
+    - repos/org-cliplink is already compact
+    - repos/org-contrib is already compact
+    - repos/org-download is already compact
+    - repos/org-journal is already compact
+    - repos/org-modern is already compact
+    - repos/org-noter is already compact
+    - repos/org-pdftools is already compact
+    - repos/org-pomodoro is already compact
+    - repos/org-present is already compact
+    - repos/org-roam is already compact
+    - repos/org-yt is already compact
+    - repos/overseer.el is already compact
+    - repos/ox-clip is already compact
+    - repos/ox-hugo is already compact
+    - repos/ox-pandoc is already compact
+    - repos/package-lint is already compact
+    - repos/parent-mode is already compact
+    - repos/pcre2el is already compact
+    - repos/pdf-tools is already compact
+    - repos/pkg-info is already compact
+    - repos/popup-el is already compact
+    - repos/posframe is already compact
+    - repos/project is already compact
+    - repos/projectile is already compact
+    - repos/quickrun is already compact
+    - repos/rainbow-delimiters is already compact
+    - repos/rainbow-mode is already compact
+    - repos/restart-emacs is already compact
+    - repos/s.el is already compact
+    - repos/saveplace-pdf-view is already compact
+    - repos/shrink-path.el is already compact
+    - repos/smartparens is already compact
+    - repos/snippets is already compact
+    - repos/straight.el is already compact
+    - repos/swiper is already compact
+    - repos/tablist is already compact
+    - repos/themes is already compact
+    - repos/toc-org is already compact
+    - repos/tomelr is already compact
+    - repos/transient is already compact
+    - repos/undo-fu is already compact
+    - repos/undo-fu-session is already compact
+    - repos/use-package is already compact
+    - repos/vertico is already compact
+    - repos/vi-tilde-fringe is already compact
+    - repos/vimish-fold is already compact
+    - repos/with-editor is already compact
+    - repos/writegood-mode is already compact
+    - repos/ws-butler is already compact
+    - repos/xref is already compact
+    - repos/yasnippet is already compact
+    - repos/zoutline is already compact
+    ✓ Finished regrafting. Size before: 207252.8KB and after: 207280.1KB (27.3KB)
+> (Re)generating autoloads file...
+  > Generating autoloads file...
+    * [118.332131] Scanning c:/Users/threddast/.emacs.d/lisp/lib/buffers.el
+    * [118.341781] Scanning c:/Users/threddast/.emacs.d/lisp/lib/config.el
+    * [118.348027] Scanning c:/Users/threddast/.emacs.d/lisp/lib/debug.el
+    * [118.356395] Scanning c:/Users/threddast/.emacs.d/lisp/lib/docs.el
+    * [118.366833] Scanning c:/Users/threddast/.emacs.d/lisp/lib/files.el
+    * [118.374773] Scanning c:/Users/threddast/.emacs.d/lisp/lib/fonts.el
+    * [118.382511] Scanning c:/Users/threddast/.emacs.d/lisp/lib/git.el
+    * [118.387553] Scanning c:/Users/threddast/.emacs.d/lisp/lib/help.el
+    * [118.397712] Scanning c:/Users/threddast/.emacs.d/lisp/lib/packages.el
+    * [118.404706] Scanning c:/Users/threddast/.emacs.d/lisp/lib/plist.el
+    * [118.410506] Scanning c:/Users/threddast/.emacs.d/lisp/lib/print.el
+    * [118.418881] Scanning c:/Users/threddast/.emacs.d/lisp/lib/process.el
+    * [118.424239] Scanning c:/Users/threddast/.emacs.d/lisp/lib/projects.el
+    * [118.431247] Scanning c:/Users/threddast/.emacs.d/lisp/lib/sandbox.el
+    * [118.437174] Scanning c:/Users/threddast/.emacs.d/lisp/lib/scratch.el
+    * [118.443899] Scanning c:/Users/threddast/.emacs.d/lisp/lib/sessions.el
+    * [118.450134] Scanning c:/Users/threddast/.emacs.d/lisp/lib/store.el
+    * [118.456792] Scanning c:/Users/threddast/.emacs.d/lisp/lib/system.el
+    * [118.462499] Scanning c:/Users/threddast/.emacs.d/lisp/lib/text.el
+    * [118.471007] Scanning c:/Users/threddast/.emacs.d/lisp/lib/themes.el
+    * [118.477915] Scanning c:/Users/threddast/.emacs.d/lisp/lib/ui.el
+    * [118.485601] Scanning c:/Users/threddast/.emacs.d/modules/app/calendar/autoload.el
+    * [118.489904] Scanning c:/Users/threddast/.emacs.d/modules/app/emms/autoload.el
+    * [118.494069] Scanning c:/Users/threddast/.emacs.d/modules/app/irc/autoload/irc.el
+    * [118.499146] Scanning c:/Users/threddast/.emacs.d/modules/app/irc/autoload/ivy.el
+    * [118.504131] Scanning c:/Users/threddast/.emacs.d/modules/app/irc/autoload/settings.el
+    * [118.509240] Scanning c:/Users/threddast/.emacs.d/modules/app/irc/autoload/vertico.el
+    * [118.514166] Scanning c:/Users/threddast/.emacs.d/modules/app/rss/autoload.el
+    * [118.518434] Scanning c:/Users/threddast/.emacs.d/modules/app/twitter/autoload.el
+    * [118.524302] Scanning c:/Users/threddast/.emacs.d/modules/checkers/spell/autoload/+flyspell.el
+    * [118.601780] Scanning c:/Users/threddast/.emacs.d/modules/checkers/spell/autoload/+spell-fu.el
+    * [118.607529] Scanning c:/Users/threddast/.emacs.d/modules/checkers/syntax/autoload.el
+    * [118.613576] Scanning c:/Users/threddast/.emacs.d/modules/completion/company/autoload.el
+    * [118.620875] Scanning c:/Users/threddast/.emacs.d/modules/completion/helm/autoload/evil.el
+    * [118.626109] Scanning c:/Users/threddast/.emacs.d/modules/completion/helm/autoload/helm.el
+    * [118.631087] Scanning c:/Users/threddast/.emacs.d/modules/completion/helm/autoload/posframe.el
+    * [118.636178] Scanning c:/Users/threddast/.emacs.d/modules/completion/ivy/autoload/evil.el
+    * [118.641152] Scanning c:/Users/threddast/.emacs.d/modules/completion/ivy/autoload/hydras.el
+    * [118.646060] Scanning c:/Users/threddast/.emacs.d/modules/completion/ivy/autoload/ivy.el
+    * [118.651284] Scanning c:/Users/threddast/.emacs.d/modules/completion/ivy/autoload/posframe.el
+    * [118.657022] Scanning c:/Users/threddast/.emacs.d/modules/completion/vertico/autoload/evil.el
+    * [118.666027] Scanning c:/Users/threddast/.emacs.d/modules/completion/vertico/autoload/magit.el
+    * [118.671582] Scanning c:/Users/threddast/.emacs.d/modules/completion/vertico/autoload/vertico.el
+    * [118.680541] Scanning c:/Users/threddast/.emacs.d/modules/completion/vertico/autoload/workspaces.el
+    * [118.686269] Scanning c:/Users/threddast/.emacs.d/modules/config/default/autoload/default.el
+    * [118.693549] Scanning c:/Users/threddast/.emacs.d/modules/config/default/autoload/deferred.el
+    * [118.701257] Scanning c:/Users/threddast/.emacs.d/modules/config/default/autoload/files.el
+    * [118.708659] Scanning c:/Users/threddast/.emacs.d/modules/config/default/autoload/search.el
+    * [118.716808] Scanning c:/Users/threddast/.emacs.d/modules/config/default/autoload/text.el
+    * [118.724921] Scanning c:/Users/threddast/.emacs.d/modules/config/literate/autoload.el
+    * [118.729314] Scanning c:/Users/threddast/.emacs.d/modules/editor/evil/autoload/advice.el
+    * [118.739058] Scanning c:/Users/threddast/.emacs.d/modules/editor/evil/autoload/embrace.el
+    * [118.746156] Scanning c:/Users/threddast/.emacs.d/modules/editor/evil/autoload/evil.el
+    * [118.756087] Scanning c:/Users/threddast/.emacs.d/modules/editor/evil/autoload/ex.el
+    * [118.765282] Scanning c:/Users/threddast/.emacs.d/modules/editor/evil/autoload/files.el
+    * [118.773655] Scanning c:/Users/threddast/.emacs.d/modules/editor/evil/autoload/textobjects.el
+    * [118.782089] Scanning c:/Users/threddast/.emacs.d/modules/editor/evil/autoload/unimpaired.el
+    * [118.792290] Scanning c:/Users/threddast/.emacs.d/modules/editor/file-templates/autoload.el
+    * [118.799754] Scanning c:/Users/threddast/.emacs.d/modules/editor/fold/autoload/fold.el
+    * [118.807951] Scanning c:/Users/threddast/.emacs.d/modules/editor/fold/autoload/hideshow.el
+    * [118.815144] Scanning c:/Users/threddast/.emacs.d/modules/editor/format/autoload/evil.el
+    * [118.823202] Scanning c:/Users/threddast/.emacs.d/modules/editor/format/autoload/format.el
+    * [118.886525] Scanning c:/Users/threddast/.emacs.d/modules/editor/format/autoload/settings.el
+    * [118.894555] Scanning c:/Users/threddast/.emacs.d/modules/editor/god/autoload.el
+    * [118.898711] Scanning c:/Users/threddast/.emacs.d/modules/editor/multiple-cursors/autoload/evil-mc.el
+    * [118.903716] Scanning c:/Users/threddast/.emacs.d/modules/editor/rotate-text/autoload.el
+    * [118.908009] Scanning c:/Users/threddast/.emacs.d/modules/editor/snippets/autoload/settings.el
+    * [118.915189] Scanning c:/Users/threddast/.emacs.d/modules/editor/snippets/autoload/snippets.el
+    * [118.924568] Scanning c:/Users/threddast/.emacs.d/modules/editor/word-wrap/autoload.el
+    * [118.928888] Scanning c:/Users/threddast/.emacs.d/modules/emacs/dired/autoload.el
+    * [118.934742] Scanning c:/Users/threddast/.emacs.d/modules/emacs/electric/autoload.el
+    * [118.940837] Scanning c:/Users/threddast/.emacs.d/modules/emacs/ibuffer/autoload/workspaces.el
+    * [118.946122] Scanning c:/Users/threddast/.emacs.d/modules/emacs/vc/autoload/bug-reference-backport.el
+    * [118.951789] Scanning c:/Users/threddast/.emacs.d/modules/emacs/vc/autoload/hydra.el
+    * [118.957421] Scanning c:/Users/threddast/.emacs.d/modules/emacs/vc/autoload/vc.el
+    * [118.964461] Scanning c:/Users/threddast/.emacs.d/modules/email/mu4e/autoload/advice.el
+    * [118.969469] Scanning c:/Users/threddast/.emacs.d/modules/email/mu4e/autoload/email.el
+    * [118.974982] Scanning c:/Users/threddast/.emacs.d/modules/email/mu4e/autoload/evil.el
+    * [118.979840] Scanning c:/Users/threddast/.emacs.d/modules/email/mu4e/autoload/mu-lock.el
+    * [118.984782] Scanning c:/Users/threddast/.emacs.d/modules/email/notmuch/autoload.el
+    * [118.989053] Scanning c:/Users/threddast/.emacs.d/modules/email/wanderlust/autoload.el
+    * [118.993135] Scanning c:/Users/threddast/.emacs.d/modules/input/layout/autoload/bepo.el
+    * [118.998112] Scanning c:/Users/threddast/.emacs.d/modules/lang/beancount/autoload.el
+    * [119.002420] Scanning c:/Users/threddast/.emacs.d/modules/lang/cc/autoload.el
+    * [119.007130] Scanning c:/Users/threddast/.emacs.d/modules/lang/clojure/autoload.el
+    * [119.011290] Scanning c:/Users/threddast/.emacs.d/modules/lang/common-lisp/autoload/common-lisp.el
+    * [119.016268] Scanning c:/Users/threddast/.emacs.d/modules/lang/csharp/autoload.el
+    * [119.020398] Scanning c:/Users/threddast/.emacs.d/modules/lang/emacs-lisp/autoload.el
+    * [119.028662] Scanning c:/Users/threddast/.emacs.d/modules/lang/ess/autoload.el
+    * [119.032723] Scanning c:/Users/threddast/.emacs.d/modules/lang/faust/autoload.el
+    * [119.036846] Scanning c:/Users/threddast/.emacs.d/modules/lang/fortran/autoload.el
+    * [119.040961] Scanning c:/Users/threddast/.emacs.d/modules/lang/go/autoload.el
+    * [119.045082] Scanning c:/Users/threddast/.emacs.d/modules/lang/graphql/autoload.el
+    * [119.049300] Scanning c:/Users/threddast/.emacs.d/modules/lang/haskell/autoload.el
+    * [119.053626] Scanning c:/Users/threddast/.emacs.d/modules/lang/java/autoload/java.el
+    * [119.058705] Scanning c:/Users/threddast/.emacs.d/modules/lang/java/autoload/lsp.el
+    * [119.063618] Scanning c:/Users/threddast/.emacs.d/modules/lang/javascript/autoload.el
+    * [119.067790] Scanning c:/Users/threddast/.emacs.d/modules/lang/julia/autoload.el
+    * [119.072028] Scanning c:/Users/threddast/.emacs.d/modules/lang/kotlin/autoload.el
+    * [119.076069] Scanning c:/Users/threddast/.emacs.d/modules/lang/latex/autoload.el
+    * [119.082380] Scanning c:/Users/threddast/.emacs.d/modules/lang/lua/autoload/lua.el
+    * [119.087245] Scanning c:/Users/threddast/.emacs.d/modules/lang/lua/autoload/moonscript.el
+    * [119.092129] Scanning c:/Users/threddast/.emacs.d/modules/lang/markdown/autoload.el
+    * [119.099004] Scanning c:/Users/threddast/.emacs.d/modules/lang/nix/autoload.el
+    * [119.103212] Scanning c:/Users/threddast/.emacs.d/modules/lang/ocaml/autoload.el
+    * [119.107282] Scanning c:/Users/threddast/.emacs.d/modules/lang/org/autoload/contrib-ipython.el
+    * [119.113080] Scanning c:/Users/threddast/.emacs.d/modules/lang/org/autoload/contrib-present.el
+    * [119.118800] Scanning c:/Users/threddast/.emacs.d/modules/lang/org/autoload/contrib-roam2.el
+    * [119.127925] Scanning c:/Users/threddast/.emacs.d/modules/lang/org/autoload/org-attach.el
+    * [119.135048] Scanning c:/Users/threddast/.emacs.d/modules/lang/org/autoload/org-avy.el
+    * [119.141638] Scanning c:/Users/threddast/.emacs.d/modules/lang/org/autoload/org-babel.el
+    * [119.149135] Scanning c:/Users/threddast/.emacs.d/modules/lang/org/autoload/org-capture.el
+    * [119.157212] Scanning c:/Users/threddast/.emacs.d/modules/lang/org/autoload/org-export.el
+    * [119.164661] Scanning c:/Users/threddast/.emacs.d/modules/lang/org/autoload/org-link.el
+    * [119.172646] Scanning c:/Users/threddast/.emacs.d/modules/lang/org/autoload/org-refile.el
+    * [119.180741] Scanning c:/Users/threddast/.emacs.d/modules/lang/org/autoload/org-tables.el
+    * [119.188389] Scanning c:/Users/threddast/.emacs.d/modules/lang/org/autoload/org.el
+    * [119.199616] Scanning c:/Users/threddast/.emacs.d/modules/lang/php/autoload.el
+    * [119.203761] Scanning c:/Users/threddast/.emacs.d/modules/lang/plantuml/autoload.el
+    * [119.207929] Scanning c:/Users/threddast/.emacs.d/modules/lang/python/autoload/conda.el
+    * [119.213079] Scanning c:/Users/threddast/.emacs.d/modules/lang/python/autoload/pyenv.el
+    * [119.218025] Scanning c:/Users/threddast/.emacs.d/modules/lang/python/autoload/python.el
+    * [119.222964] Scanning c:/Users/threddast/.emacs.d/modules/lang/qt/autoload.el
+    * [119.227086] Scanning c:/Users/threddast/.emacs.d/modules/lang/racket/autoload.el
+    * [119.231275] Scanning c:/Users/threddast/.emacs.d/modules/lang/rest/autoload.el
+    * [119.235548] Scanning c:/Users/threddast/.emacs.d/modules/lang/ruby/autoload.el
+    * [119.239594] Scanning c:/Users/threddast/.emacs.d/modules/lang/rust/autoload.el
+    * [119.243750] Scanning c:/Users/threddast/.emacs.d/modules/lang/scala/autoload.el
+    * [119.247964] Scanning c:/Users/threddast/.emacs.d/modules/lang/scheme/autoload.el
+    * [119.252220] Scanning c:/Users/threddast/.emacs.d/modules/lang/sh/autoload.el
+    * [119.256361] Scanning c:/Users/threddast/.emacs.d/modules/lang/terra/autoload.el
+    * [119.260415] Scanning c:/Users/threddast/.emacs.d/modules/lang/web/autoload/css.el
+    * [119.265620] Scanning c:/Users/threddast/.emacs.d/modules/lang/web/autoload/evil.el
+    * [119.270484] Scanning c:/Users/threddast/.emacs.d/modules/lang/web/autoload/html.el
+    * [119.275509] Scanning c:/Users/threddast/.emacs.d/modules/os/macos/autoload.el
+    * [119.279814] Scanning c:/Users/threddast/.emacs.d/modules/term/eshell/autoload/backport.el
+    * [119.284879] Scanning c:/Users/threddast/.emacs.d/modules/term/eshell/autoload/commands.el
+    * [119.289758] Scanning c:/Users/threddast/.emacs.d/modules/term/eshell/autoload/company.el
+    * [119.294889] Scanning c:/Users/threddast/.emacs.d/modules/term/eshell/autoload/eshell.el
+    * [119.299993] Scanning c:/Users/threddast/.emacs.d/modules/term/eshell/autoload/evil.el
+    * [119.304980] Scanning c:/Users/threddast/.emacs.d/modules/term/eshell/autoload/prompts.el
+    * [119.309931] Scanning c:/Users/threddast/.emacs.d/modules/term/eshell/autoload/settings.el
+    * [119.315136] Scanning c:/Users/threddast/.emacs.d/modules/term/shell/autoload.el
+    * [119.319398] Scanning c:/Users/threddast/.emacs.d/modules/term/term/autoload.el
+    * [119.323569] Scanning c:/Users/threddast/.emacs.d/modules/term/vterm/autoload.el
+    * [119.330222] Scanning c:/Users/threddast/.emacs.d/modules/tools/debugger/autoload/debugger.el
+    * [119.335199] Scanning c:/Users/threddast/.emacs.d/modules/tools/debugger/autoload/evil.el
+    * [119.340180] Scanning c:/Users/threddast/.emacs.d/modules/tools/editorconfig/autoload.el
+    * [119.344422] Scanning c:/Users/threddast/.emacs.d/modules/tools/eval/autoload/eval.el
+    * [119.352508] Scanning c:/Users/threddast/.emacs.d/modules/tools/eval/autoload/evil.el
+    * [119.360890] Scanning c:/Users/threddast/.emacs.d/modules/tools/eval/autoload/repl.el
+    * [119.368768] Scanning c:/Users/threddast/.emacs.d/modules/tools/eval/autoload/settings.el
+    * [119.376177] Scanning c:/Users/threddast/.emacs.d/modules/tools/gist/autoload/evil.el
+    * [119.381019] Scanning c:/Users/threddast/.emacs.d/modules/tools/lookup/autoload/docsets.el
+    * [119.387090] Scanning c:/Users/threddast/.emacs.d/modules/tools/lookup/autoload/evil.el
+    * [119.395574] Scanning c:/Users/threddast/.emacs.d/modules/tools/lookup/autoload/lookup.el
+    * [119.405501] Scanning c:/Users/threddast/.emacs.d/modules/tools/lookup/autoload/online.el
+    * [119.413409] Scanning c:/Users/threddast/.emacs.d/modules/tools/lookup/autoload/xwidget.el
+    * [119.420179] Scanning c:/Users/threddast/.emacs.d/modules/tools/lsp/autoload/common.el
+    * [119.425055] Scanning c:/Users/threddast/.emacs.d/modules/tools/lsp/autoload/eglot.el
+    * [119.428544] Scanning c:/Users/threddast/.emacs.d/modules/tools/lsp/autoload/flycheck-eglot.el
+    * [119.433263] Scanning c:/Users/threddast/.emacs.d/modules/tools/lsp/autoload/lsp-mode.el
+    * [119.438071] Scanning c:/Users/threddast/.emacs.d/modules/tools/magit/autoload.el
+    * [119.442178] Scanning c:/Users/threddast/.emacs.d/modules/tools/make/autoload.el
+    * [119.446325] Scanning c:/Users/threddast/.emacs.d/modules/tools/pass/autoload/consult.el
+    * [119.450922] Scanning c:/Users/threddast/.emacs.d/modules/tools/pass/autoload/ivy.el
+    * [119.455820] Scanning c:/Users/threddast/.emacs.d/modules/tools/pass/autoload/pass.el
+    * [119.461095] Scanning c:/Users/threddast/.emacs.d/modules/tools/prodigy/autoload.el
+    * [119.465259] Scanning c:/Users/threddast/.emacs.d/modules/tools/rgb/autoload.el
+    * [119.470079] Scanning c:/Users/threddast/.emacs.d/modules/tools/taskrunner/autoload.el
+    * [119.474282] Scanning c:/Users/threddast/.emacs.d/modules/tools/tmux/autoload/evil.el
+    * [119.479302] Scanning c:/Users/threddast/.emacs.d/modules/tools/tmux/autoload/tmux.el
+    * [119.484569] Scanning c:/Users/threddast/.emacs.d/modules/tools/tree-sitter/autoload.el
+    * [119.489138] Scanning c:/Users/threddast/.emacs.d/modules/ui/doom-dashboard/autoload.el
+    * [119.495447] Scanning c:/Users/threddast/.emacs.d/modules/ui/hydra/autoload/windows.el
+    * [119.500286] Scanning c:/Users/threddast/.emacs.d/modules/ui/ligatures/autoload/install.el
+    * [119.505988] Scanning c:/Users/threddast/.emacs.d/modules/ui/ligatures/autoload/ligatures.el
+    * [119.512969] Scanning c:/Users/threddast/.emacs.d/modules/ui/modeline/autoload.el
+    * [119.519096] Scanning c:/Users/threddast/.emacs.d/modules/ui/nav-flash/autoload.el
+    * [119.523190] Scanning c:/Users/threddast/.emacs.d/modules/ui/neotree/autoload.el
+    * [119.527440] Scanning c:/Users/threddast/.emacs.d/modules/ui/popup/autoload/popup.el
+    * [119.538842] Scanning c:/Users/threddast/.emacs.d/modules/ui/popup/autoload/settings.el
+    * [119.547215] Scanning c:/Users/threddast/.emacs.d/modules/ui/tabs/autoload.el
+    * [119.551289] Scanning c:/Users/threddast/.emacs.d/modules/ui/treemacs/autoload.el
+    * [119.555348] Scanning c:/Users/threddast/.emacs.d/modules/ui/unicode/autoload.el
+    * [119.559496] Scanning c:/Users/threddast/.emacs.d/modules/ui/vc-gutter/autoload/diff-hl.el
+    * [119.564996] Scanning c:/Users/threddast/.emacs.d/modules/ui/vc-gutter/autoload/git-gutter.el
+    * [119.571778] Scanning c:/Users/threddast/.emacs.d/modules/ui/vi-tilde-fringe/autoload.el
+    * [119.577534] Scanning c:/Users/threddast/.emacs.d/modules/ui/workspaces/autoload/evil.el
+    * [119.582420] Scanning c:/Users/threddast/.emacs.d/modules/ui/workspaces/autoload/workspaces.el
+    * [119.587741] Scanning c:/Users/threddast/.emacs.d/modules/ui/zen/autoload.el
+    * [119.614588] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/straight/straight-autoloads.el
+    * [119.621193] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/use-package/use-package-autoloads.el
+    * [119.627510] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/bind-key/bind-key-autoloads.el
+    * [119.633149] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/auto-minor-mode/auto-minor-mode-autoloads.el
+    * [119.638294] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/gcmh/gcmh-autoloads.el
+    * [119.643318] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/explain-pause-mode/explain-pause-mode-autoloads.el
+    * [119.648478] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/all-the-icons/all-the-icons-autoloads.el
+    * [119.653736] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/hide-mode-line/hide-mode-line-autoloads.el
+    * [119.658964] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/highlight-numbers/highlight-numbers-autoloads.el
+    * [119.663968] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/parent-mode/parent-mode-autoloads.el
+    * [119.668962] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/rainbow-delimiters/rainbow-delimiters-autoloads.el
+    * [119.674026] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/restart-emacs/restart-emacs-autoloads.el
+    * [119.679145] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/better-jumper/better-jumper-autoloads.el
+    * [119.684303] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/dtrt-indent/dtrt-indent-autoloads.el
+    * [119.689659] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/helpful/helpful-autoloads.el
+    * [119.694782] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/dash/dash-autoloads.el
+    * [119.700098] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/s/s-autoloads.el
+    * [119.704969] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/f/f-autoloads.el
+    * [119.709859] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/elisp-refs/elisp-refs-autoloads.el
+    * [119.715119] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/pcre2el/pcre2el-autoloads.el
+    * [119.720668] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/smartparens/smartparens-autoloads.el
+    * [119.726519] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/ws-butler/ws-butler-autoloads.el
+    * [119.734931] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/projectile/projectile-autoloads.el
+    * [119.744610] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/project/project-autoloads.el
+    * [119.753293] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/xref/xref-autoloads.el
+    * [119.761312] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/general/general-autoloads.el
+    * [119.770424] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/which-key/which-key-autoloads.el
+    * [119.778554] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/company/company-autoloads.el
+    * [119.784849] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/company-dict/company-dict-autoloads.el
+    * [119.789838] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/vertico/vertico-autoloads.el
+    * [119.795849] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/orderless/orderless-autoloads.el
+    * [119.800976] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/consult/consult-autoloads.el
+    * [119.807079] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/compat/compat-autoloads.el
+    * [119.812223] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/consult-dir/consult-dir-autoloads.el
+    * [119.817191] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/consult-flycheck/consult-flycheck-autoloads.el
+    * [119.822118] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/flycheck/flycheck-autoloads.el
+    * [119.827927] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/pkg-info/pkg-info-autoloads.el
+    * [119.833317] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/epl/epl-autoloads.el
+    * [119.838488] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/embark/embark-autoloads.el
+    * [119.844128] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/embark-consult/embark-consult-autoloads.el
+    * [119.849657] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/marginalia/marginalia-autoloads.el
+    * [119.855037] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/wgrep/wgrep-autoloads.el
+    * [119.860287] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/doom-themes/doom-themes-autoloads.el
+    * [119.867683] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/solaire-mode/solaire-mode-autoloads.el
+    * [119.873148] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/hl-todo/hl-todo-autoloads.el
+    * [119.880108] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/doom-modeline/doom-modeline-autoloads.el
+    * [119.886120] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/shrink-path/shrink-path-autoloads.el
+    * [119.891427] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/anzu/anzu-autoloads.el
+    * [119.897065] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/evil-anzu/evil-anzu-autoloads.el
+    * [119.902009] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/evil/evil-autoloads.el
+    * [119.907612] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/goto-chg/goto-chg-autoloads.el
+    * [119.912981] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/evil-goggles/evil-goggles-autoloads.el
+    * [119.918087] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/git-gutter-fringe/git-gutter-fringe-autoloads.el
+    * [119.922990] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/git-gutter/git-gutter-autoloads.el
+    * [119.928263] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/fringe-helper/fringe-helper-autoloads.el
+    * [119.933314] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/vi-tilde-fringe/vi-tilde-fringe-autoloads.el
+    * [119.938555] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/evil-args/evil-args-autoloads.el
+    * [119.943917] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/evil-easymotion/evil-easymotion-autoloads.el
+    * [119.949508] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/avy/avy-autoloads.el
+    * [119.955180] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/evil-embrace/evil-embrace-autoloads.el
+    * [119.960125] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/embrace/embrace-autoloads.el
+    * [119.965157] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/expand-region/expand-region-autoloads.el
+    * [119.971097] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/evil-surround/evil-surround-autoloads.el
+    * [119.976617] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/evil-escape/evil-escape-autoloads.el
+    * [119.981708] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/evil-exchange/evil-exchange-autoloads.el
+    * [119.986585] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/evil-indent-plus/evil-indent-plus-autoloads.el
+    * [119.991900] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/evil-lion/evil-lion-autoloads.el
+    * [119.996851] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/evil-nerd-commenter/evil-nerd-commenter-autoloads.el
+    * [120.002034] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/evil-numbers/evil-numbers-autoloads.el
+    * [120.007055] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/evil-snipe/evil-snipe-autoloads.el
+    * [120.012312] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/evil-textobj-anyblock/evil-textobj-anyblock-autoloads.el
+    * [120.017533] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/evil-traces/evil-traces-autoloads.el
+    * [120.022849] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/evil-visualstar/evil-visualstar-autoloads.el
+    * [120.028225] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/exato/exato-autoloads.el
+    * [120.033123] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/evil-quick-diff/evil-quick-diff-autoloads.el
+    * [120.038104] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/evil-collection/evil-collection-autoloads.el
+    * [120.043890] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/annalist/annalist-autoloads.el
+    * [120.049031] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/yasnippet/yasnippet-autoloads.el
+    * [120.054286] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/vimish-fold/vimish-fold-autoloads.el
+    * [120.059542] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/evil-vimish-fold/evil-vimish-fold-autoloads.el
+    * [120.064938] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/auto-yasnippet/auto-yasnippet-autoloads.el
+    * [120.070451] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/doom-snippets/doom-snippets-autoloads.el
+    * [120.075521] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/diredfl/diredfl-autoloads.el
+    * [120.080804] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/dired-git-info/dired-git-info-autoloads.el
+    * [120.086248] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/dired-rsync/dired-rsync-autoloads.el
+    * [120.091502] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/fd-dired/fd-dired-autoloads.el
+    * [120.097009] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/undo-fu/undo-fu-autoloads.el
+    * [120.102767] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/undo-fu-session/undo-fu-session-autoloads.el
+    * [120.108525] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/browse-at-remote/browse-at-remote-autoloads.el
+    * [120.114167] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/git-commit/git-commit-autoloads.el
+    * [120.119748] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/transient/transient-autoloads.el
+    * [120.125814] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/with-editor/with-editor-autoloads.el
+    * [120.131968] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/git-timemachine/git-timemachine-autoloads.el
+    * [120.137340] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/git-modes/git-modes-autoloads.el
+    * [120.143300] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/flycheck-popup-tip/flycheck-popup-tip-autoloads.el
+    * [120.149004] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/popup/popup-autoloads.el
+    * [120.154771] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/quickrun/quickrun-autoloads.el
+    * [120.161238] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/eros/eros-autoloads.el
+    * [120.166846] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/dumb-jump/dumb-jump-autoloads.el
+    * [120.173116] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/request/request-autoloads.el
+    * [120.178650] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/magit-section/magit-section-autoloads.el
+    * [120.184493] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/async/async-autoloads.el
+    * [120.190577] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/markdown-mode/markdown-mode-autoloads.el
+    * [120.196314] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/emacsql-sqlite/emacsql-sqlite-autoloads.el
+    * [120.201801] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/emacsql/emacsql-autoloads.el
+    * [120.207526] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/ht/ht-autoloads.el
+    * [120.213009] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/highlight-quoted/highlight-quoted-autoloads.el
+    * [120.218479] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/macrostep/macrostep-autoloads.el
+    * [120.224213] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/overseer/overseer-autoloads.el
+    * [120.230548] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/elisp-def/elisp-def-autoloads.el
+    * [120.236326] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/elisp-demos/elisp-demos-autoloads.el
+    * [120.241577] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/flycheck-package/flycheck-package-autoloads.el
+    * [120.247326] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/package-lint/package-lint-autoloads.el
+    * [120.252951] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/flycheck-cask/flycheck-cask-autoloads.el
+    * [120.258694] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/buttercup/buttercup-autoloads.el
+    * [120.264624] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/markdown-toc/markdown-toc-autoloads.el
+    * [120.271076] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/edit-indirect/edit-indirect-autoloads.el
+    * [120.277225] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/evil-markdown/evil-markdown-autoloads.el
+    * [120.282809] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/org/org-autoloads.el
+    * [120.290522] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/org-contrib/org-contrib-autoloads.el
+    * [120.297139] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/htmlize/htmlize-autoloads.el
+    * [120.303245] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/org-yt/org-yt-autoloads.el
+    * [120.308428] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/ox-clip/ox-clip-autoloads.el
+    * [120.314373] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/toc-org/toc-org-autoloads.el
+    * [120.319929] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/org-cliplink/org-cliplink-autoloads.el
+    * [120.325991] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/evil-org/evil-org-autoloads.el
+    * [120.331786] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/ob-async/ob-async-autoloads.el
+    * [120.337301] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/drag-stuff/drag-stuff-autoloads.el
+    * [120.343960] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/link-hint/link-hint-autoloads.el
+    * [120.349806] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/company-box/company-box-autoloads.el
+    * [120.355606] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/frame-local/frame-local-autoloads.el
+    * [120.361262] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/ace-window/ace-window-autoloads.el
+    * [120.366723] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/hydra/hydra-autoloads.el
+    * [120.372048] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/lv/lv-autoloads.el
+    * [120.377068] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/posframe/posframe-autoloads.el
+    * [120.383308] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/format-all/format-all-autoloads.el
+    * [120.388931] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/lispy/lispy-autoloads.el
+    * [120.395198] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/iedit/iedit-autoloads.el
+    * [120.401460] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/swiper/swiper-autoloads.el
+    * [120.407313] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/ivy/ivy-autoloads.el
+    * [120.413316] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/zoutline/zoutline-autoloads.el
+    * [120.418770] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/lispyville/lispyville-autoloads.el
+    * [120.424384] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/vterm/vterm-autoloads.el
+    * [120.430909] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/flycheck-posframe/flycheck-posframe-autoloads.el
+    * [120.436723] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/flyspell-correct/flyspell-correct-autoloads.el
+    * [120.442147] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/flyspell-lazy/flyspell-lazy-autoloads.el
+    * [120.448489] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/langtool/langtool-autoloads.el
+    * [120.454133] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/writegood-mode/writegood-mode-autoloads.el
+    * [120.460964] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/pdf-tools/pdf-tools-autoloads.el
+    * [120.467858] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/tablist/tablist-autoloads.el
+    * [120.473663] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/saveplace-pdf-view/saveplace-pdf-view-autoloads.el
+    * [120.479014] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/rainbow-mode/rainbow-mode-autoloads.el
+    * [120.485210] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/kurecolor/kurecolor-autoloads.el
+    * [120.491177] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/map/map-autoloads.el
+    * [120.496852] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/json-mode/json-mode-autoloads.el
+    * [120.502908] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/json-snatcher/json-snatcher-autoloads.el
+    * [120.508398] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/auctex/auctex-autoloads.el
+    * [120.515205] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/adaptive-wrap/adaptive-wrap-autoloads.el
+    * [120.520754] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/latex-preview-pane/latex-preview-pane-autoloads.el
+    * [120.526834] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/evil-tex/evil-tex-autoloads.el
+    * [120.532533] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/cdlatex/cdlatex-autoloads.el
+    * [120.538290] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/company-auctex/company-auctex-autoloads.el
+    * [120.544163] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/company-reftex/company-reftex-autoloads.el
+    * [120.549726] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/company-math/company-math-autoloads.el
+    * [120.555504] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/math-symbol-lists/math-symbol-lists-autoloads.el
+    * [120.561287] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/org-pdftools/org-pdftools-autoloads.el
+    * [120.566935] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/org-noter/org-noter-autoloads.el
+    * [120.572671] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/org-download/org-download-autoloads.el
+    * [120.578499] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/jupyter/jupyter-autoloads.el
+    * [120.585840] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/zmq/zmq-autoloads.el
+    * [120.591286] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/simple-httpd/simple-httpd-autoloads.el
+    * [120.596856] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/websocket/websocket-autoloads.el
+    * [120.602567] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/org-journal/org-journal-autoloads.el
+    * [120.608275] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/org-pomodoro/org-pomodoro-autoloads.el
+    * [120.613458] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/alert/alert-autoloads.el
+    * [120.618986] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/gntp/gntp-autoloads.el
+    * [120.624460] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/log4e/log4e-autoloads.el
+    * [120.630757] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/org-roam/org-roam-autoloads.el
+    * [120.636691] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/ox-pandoc/ox-pandoc-autoloads.el
+    * [120.642952] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/ox-hugo/ox-hugo-autoloads.el
+    * [120.649052] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/tomelr/tomelr-autoloads.el
+    * [120.654532] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/org-modern/org-modern-autoloads.el
+    * [120.660608] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/org-auto-tangle/org-auto-tangle-autoloads.el
+    * [120.666685] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/org-present/org-present-autoloads.el
+    * [120.671892] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/centered-window/centered-window-autoloads.el
+    * [120.678070] Scanning c:/Users/threddast/.emacs.d/.local/straight/build-28.1/org-noter-pdftools/org-noter-pdftools-autoloads.el
+  > Byte-compiling autoloads file...
+  ✓ Generated .local/autoloads.28.1.elc
+* [123.487838] Finished (GCs: 3, elapsed: 0.780053s)
+✓ Finished in 2m 3s

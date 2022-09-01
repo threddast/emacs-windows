@@ -1,0 +1,1 @@
+c:/Users/threddast/.emacs.d/.local/straight/repos/telega.el/etc/td-api-1.4.0.tl
