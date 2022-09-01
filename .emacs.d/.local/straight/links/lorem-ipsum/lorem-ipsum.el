@@ -1,0 +1,1 @@
+c:/Users/threddast/.emacs.d/.local/straight/repos/emacs-lorem-ipsum/lorem-ipsum.el

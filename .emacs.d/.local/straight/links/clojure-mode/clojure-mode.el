@@ -1,0 +1,1 @@
+c:/Users/threddast/.emacs.d/.local/straight/repos/clojure-mode/clojure-mode.el
