@@ -1,1 +1,0 @@
-c:/Users/threddast/.emacs.d/.local/straight/repos/saveplace-pdf-view/saveplace-pdf-view.el
