@@ -1,1 +1,0 @@
-c:/Users/threddast/.emacs.d/.local/straight/repos/flycheck-clj-kondo/flycheck-clj-kondo.el

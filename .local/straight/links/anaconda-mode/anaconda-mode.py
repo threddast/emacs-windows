@@ -1,1 +1,0 @@
-c:/Users/threddast/.emacs.d/.local/straight/repos/anaconda-mode/anaconda-mode.py

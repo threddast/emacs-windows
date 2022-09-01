@@ -1,2 +1,0 @@
-;;; -*- coding: utf-8; mode: lisp-data -*-
-(("c:/Users/threddast/roam/0-inbox/inbox.org" . 190) ("c:/Users/threddast/.doom.d/doom.org" . 32006) ("c:/Users/threddast/Downloads/sample.pdf" (pdf-view-bookmark "sample.pdf" (filename . "~/Downloads/sample.pdf") (position . 1) (page . 2) (slice) (size . fit-page) (origin) (handler . pdf-view-bookmark-jump-handler))) ("c:/Users/threddast/.doom.d/config.el" . 26803) ("c:/Users/threddast/.emacs.d/.local/cache/treemacs-persist" . 48))

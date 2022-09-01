@@ -1,1 +1,0 @@
-c:/Users/threddast/.emacs.d/.local/straight/repos/adaptive-wrap/adaptive-wrap.el
