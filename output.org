@@ -1,0 +1,562 @@
+[remote "origin"]
+	url = https://github.com/abo-abo/ace-window/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/emacs-straight/adaptive-wrap/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/jwiegley/alert/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/domtronn/all-the-icons.el/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/noctuid/annalist.el/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/emacsorphanage/anzu/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/emacs-straight/auctex/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/joewreschnig/auto-minor-mode/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/abo-abo/auto-yasnippet/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/abo-abo/avy/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/gilbertw1/better-jumper/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/rmuslimov/browse-at-remote/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/cdominik/cdlatex/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/anler/centered-window-mode/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/alexeyr/company-auctex/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/sebastiencs/company-box/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/vspinu/company-math/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/company-mode/company-mode/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/TheBB/company-reftex/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/emacs-straight/compat/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/minad/consult/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/karthink/consult-dir/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/minad/consult-flycheck/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/magnars/dash.el/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/purcell/diredfl/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/emacs-straight/dired-git-info/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/stsquad/dired-rsync/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/seagle0128/doom-modeline/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/rejeep/drag-stuff.el/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/jscheid/dtrt-indent/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/jacktasia/dumb-jump/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/Fanael/edit-indirect/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/dimitri/el-get/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/Wilfred/elisp-def/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/xuchunyang/elisp-demos/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/Wilfred/elisp-refs/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/jwiegley/emacs-async/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/jorgenschaefer/emacs-buttercup/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/hlissner/emacs-company-dict/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/lassik/emacs-format-all-the-code/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/hlissner/emacs-hide-mode-line/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/hniksic/emacs-htmlize/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/nnicandro/emacs-jupyter/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/mhayashi1120/Emacs-langtool/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/akermu/emacs-libvterm/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/emacs-straight/emacsmirror-mirror/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/skeeto/emacsql/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/tkf/emacs-request/archive/refs/heads/master.zip
+[submodule "doc/eldomain"]
+	url = https://github.com/tkf/sphinx-eldomain.git
+
+[remote "origin"]
+	url = https://github.com/hlissner/emacs-solaire-mode/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/skeeto/emacs-web-server/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/ahyatt/emacs-websocket/archive/refs/heads/master.zip
+[branch "main"]
+
+[remote "origin"]
+	url = https://github.com/mhayashi1120/Emacs-wgrep/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/justbur/emacs-which-key/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/nnicandro/emacs-zmq/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/oantolin/embark/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/cute-jumper/embrace.el/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/cask/epl/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/xiongtx/eros/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/emacs-evil/evil/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/emacsorphanage/evil-anzu/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/wcsmith/evil-args/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/emacs-evil/evil-collection/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/PythonNut/evil-easymotion/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/cute-jumper/evil-embrace.el/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/hlissner/evil-escape/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/Dewdrops/evil-exchange/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/edkolev/evil-goggles/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/TheBB/evil-indent-plus/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/edkolev/evil-lion/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/Somelauw/evil-markdown/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/redguardtoo/evil-nerd-commenter/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/juliapath/evil-numbers/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/hlissner/evil-org-mode/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/rgrinberg/evil-quick-diff/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/hlissner/evil-snipe/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/emacs-evil/evil-surround/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/iyefrat/evil-tex/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/willghatch/evil-textobj-anyblock/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/mamapanda/evil-traces/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/alexmurray/evil-vimish-fold/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/bling/evil-visualstar/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/ninrod/exato/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/magnars/expand-region.el/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/lastquestion/explain-pause-mode/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/yqrashawn/fd-dired/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/rejeep/f.el/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/flycheck/flycheck/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/flycheck/flycheck-cask/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/purcell/flycheck-package/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/flycheck/flycheck-popup-tip/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/alexmurray/flycheck-posframe/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/d12frosted/flyspell-correct/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/rolandwalker/flyspell-lazy/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/sebastiencs/frame-local/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/nschum/fringe-helper.el/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://gitlab.com/koral/gcmh/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/noctuid/general.el/archive/refs/heads/master.zip
+[submodule "makem"]
+	url = https://github.com/alphapapa/makem.sh
+[submodule "with-gnu-utils"]
+	url = https://github.com/noctuid/with-gnu-utils
+
+[remote "origin"]
+	url = https://github.com/emacsorphanage/git-gutter/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/emacsorphanage/git-gutter-fringe/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/magit/git-modes/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/emacsmirror/git-timemachine/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/tekai/gntp.el/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/emacs-straight/gnu-elpa-mirror/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/emacs-evil/goto-chg/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/Wilfred/helpful/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/Fanael/highlight-numbers/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/Fanael/highlight-quoted/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/tarsius/hl-todo/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/Wilfred/ht.el/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/abo-abo/hydra/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/victorhge/iedit/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/joshwnj/json-mode/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/Sterlingg/json-snatcher/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/emacsfodder/kurecolor/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/jsinglet/latex-preview-pane/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/noctuid/link-hint.el/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/abo-abo/lispy/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/noctuid/lispyville/archive/refs/heads/master.zip
+[submodule "makem"]
+	url = https://github.com/alphapapa/makem.sh
+[submodule "with-gnu-utils"]
+	url = https://github.com/noctuid/with-gnu-utils
+
+[remote "origin"]
+	url = https://github.com/aki2o/log4e/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/joddie/macrostep/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/magit/magit/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/emacs-straight/map/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/minad/marginalia/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/jrblevin/markdown-mode/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/ardumont/markdown-toc/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/vspinu/math-symbol-lists/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/melpa/melpa/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/astahlman/ob-async/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/oantolin/orderless/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/emacs-straight/org-mode/archive/refs/heads/master.zip
+[submodule "testing/jump"]
+	url = https://github.com/eschulte/jump.el.git
+
+[remote "origin"]
+	url = https://github.com/yilkalargaw/org-auto-tangle/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/rexim/org-cliplink/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/emacsmirror/org-contrib/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/abo-abo/org-download/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/bastibe/org-journal/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/minad/org-modern/archive/refs/heads/master.zip
+[branch "main"]
+
+[remote "origin"]
+	url = https://github.com/weirdNox/org-noter/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/fuxialexander/org-pdftools/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/marcinkoziej/org-pomodoro/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/rlister/org-present/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/org-roam/org-roam/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/TobiasZawada/org-yt/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/tonini/overseer.el/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/jkitchin/ox-clip/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/kaushalmodi/ox-hugo/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/emacsorphanage/ox-pandoc/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/purcell/package-lint/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/Fanael/parent-mode/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/joddie/pcre2el/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/vedang/pdf-tools/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/emacsorphanage/pkg-info/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/auto-complete/popup-el/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/tumashu/posframe/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/emacs-straight/project/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/bbatsov/projectile/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/emacsorphanage/quickrun/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/Fanael/rainbow-delimiters/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/emacs-straight/rainbow-mode/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/iqbalansari/restart-emacs/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/nicolaisingh/saveplace-pdf-view/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/magnars/s.el/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://gitlab.com/bennya/shrink-path.el/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/Fuco1/smartparens/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/doomemacs/snippets/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/radian-software/straight.el
+
+[remote "origin"]
+	url = https://github.com/abo-abo/swiper/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/politza/tablist/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/doomemacs/themes/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/snosov1/toc-org/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/emacs-straight/tomelr/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/magit/transient/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/emacsmirror/undo-fu/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/emacsmirror/undo-fu-session/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/jwiegley/use-package/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/minad/vertico/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/matsievskiysv/vimish-fold/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/syl20bnr/vi-tilde-fringe/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/magit/with-editor/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/bnbeckwith/writegood-mode/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/hlissner/ws-butler/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/emacs-straight/xref/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/joaotavora/yasnippet/archive/refs/heads/master.zip
+
+[remote "origin"]
+	url = https://github.com/abo-abo/zoutline/archive/refs/heads/master.zip
