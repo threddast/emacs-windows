@@ -1,0 +1,14 @@
+-----
+* Daily Goal
+* Summary
+** Start of day
+- [ ] Make the bed
+- [ ] Review agenda
+- [ ] Set daily goal
+- [ ] Write about previous sleep
+** End of day
+- [ ] Clean Inbox file
+- [ ] Clean desk
+* Health
+** Sleep
+** Sport
